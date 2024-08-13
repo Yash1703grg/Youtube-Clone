@@ -1,0 +1,227 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+
+  z-index: 100;
+}
+
+.left_section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  position: relative;
+  gap:4;
+  padding-top: 5px;
+  width: 176px;
+}
+.hamburger_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:36px;
+  height: 36px;
+  margin-left: 19px;
+  margin-right: 17px;
+
+  cursor: pointer;
+}
+
+.hamburger_logo:hover{
+  background-color: rgb(223, 223, 223);
+  border-radius: 20px;
+}
+
+.hamburger_image{
+  width: 18px;
+  height: 20px;
+  object-fit: cover;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.youtube_logo{
+  padding-right: 38px;
+}
+.youtube_image{
+  height: 20px;
+}
+
+.IN{
+  position: absolute;
+
+  font-size: 10px;
+  font-weight: 300;
+
+  top: -4px;
+  right: 0px;
+}
+
+.middle_section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin-right: 50px;
+  margin-left: 75px;
+}
+
+.search_box{
+  height: 35px;
+  max-width: 536px;   
+  flex:1;
+  width: 0;
+  min-width: 0;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d2d2d2;
+
+  padding-left: 17px;
+  font-size: 16px;
+
+  box-shadow: inset 1px 1px 2px rgba(0,0,0, 0.05);
+  outline: none;
+}
+
+.search_icon{
+  height: 39px;
+  width: 61px;
+  background-color: #f7f7f7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d2d2d2;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+  margin-left: -1px;
+  cursor: pointer;
+}
+
+.search_icon:hover{
+  background-color: rgb(238, 238, 238);
+}
+
+.voice_search_icon{
+  height: 39px;
+  width: 39px;
+  background-color: #f1f1f1;
+  margin-left: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.voice_search_icon:hover{
+  background-color: rgb(221, 221, 221);
+}
+
+.search_image, .voice_search_image{
+  height: 18px;
+}
+
+.right_section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  width: 135px;
+
+  position: relative;
+
+  padding-right: 30px;
+  flex-shrink: 0;
+}
+
+.create_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 36px;
+  width: 36px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+.create_icon:hover{
+  background-color: rgb(223, 223, 223);
+  border-radius: 20px;
+}
+.create_image{
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 21px;
+  width: 21px;
+}
+
+.notification_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 36px;
+  width: 36px;
+  margin-right: 22px;
+  position: relative;
+  cursor: pointer;
+}
+.notification_icon:hover{
+  background-color: rgb(223, 223, 223);
+  border-radius: 20px;
+}
+.notification_count{
+  position: absolute;
+  top: -12px;
+  right: -7px;
+
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #c00;
+  color: white;
+
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 0.8px;
+  padding-bottom: 1px;
+
+  border-radius: 10px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+.notification_image{
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.my_channel_logo{
+  padding-top: 1px;
+  cursor: pointer;
+}
+.my_channel_image{
+  height: 32px;
+  width: 32px;
+  border-radius: 20px;
+}

@@ -1,0 +1,358 @@
+.sidebar{
+  position: fixed;
+  top: 66px;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  
+  justify-content: top;
+
+  font-size: 14px;
+  z-index: 101;
+
+  overflow-y: auto;
+}
+
+.first{
+  margin-left: 12px;
+  padding-bottom: 10px;
+  width: 215px;
+
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(226, 226, 226);
+}
+
+.second{
+  margin-top: 10px;
+  margin-left: 12px;
+  padding-bottom: 10px;
+  width: 215px;
+
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(226, 226, 226);
+}
+
+.third{
+  margin-top: 10px;
+  margin-left: 12px;
+  padding-bottom: 10px;
+  width: 215px;
+
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(226, 226, 226);
+}
+
+.third_text{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+.fourth{
+  margin-top: 10px;
+  margin-left: 12px;
+  padding-bottom: 10px;
+  width: 215px;
+
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(226, 226, 226);
+}
+
+.fourth_text{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.fifth{
+  margin-top: 10px;
+  margin-left: 12px;
+  padding-bottom: 10px;
+  width: 215px;
+
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(226, 226, 226);
+}
+
+.fifth_text{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.sixth{
+  margin-top: 10px;
+  margin-left: 12px;
+  padding-bottom: 10px;
+  width: 215px;
+
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(226, 226, 226);
+}
+
+.footer{
+  margin-top: 10px;
+  margin-left: 25px;
+  padding-bottom: 10px;
+  width: 215px;
+  line-height: 17px;
+  word-spacing: 6px;
+  cursor: pointer;
+}
+
+.footer_text{
+  font-size: 12px;
+  color: #949494;
+  
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+
+  padding-left: 13px;
+  height: 41.3px;
+
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.section:hover{
+  background-color: rgb(237, 237, 237);
+}
+
+.home_image{
+  height: 20px;
+  width: 20px;
+  margin-right: 26px;
+}
+
+.shorts_image{
+  height: 22px;
+  width: 22px;
+  margin-right: 26px;
+}
+
+.subscriptions_image{
+  height: 22px;
+  width: 22px;
+  margin-right: 26px;
+}
+
+.you_text{
+  font-size: 16px;
+}
+
+.greater_than_image{
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.your_channel_image{
+  height: 20px;
+  width: 20px;
+  margin-right: 26px;
+}
+.history_image{
+  height: 20px;
+  width: 20px;
+  margin-right: 26px;
+}
+.your_videos_image{
+  height: 20px;
+  width: 20px;
+  margin-right: 26px;
+}
+.watch_later_image{
+  height: 20px;
+  width: 20px;
+  margin-right: 26px;
+}
+.liked_videos_image{
+  height: 20px;
+  width: 20px;
+  margin-right: 26px;
+}
+
+.sidebar_channel_image{
+  height: 22px;
+  width: 22px;
+  border-radius: 15px;
+  margin-right: 25px;
+}
+
+.live_image{
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.blue_dot_image{
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  right: 19px;
+  top: 20px;
+}
+
+.down_arrow_image{
+  height: 15px;
+  width: 15px;
+  margin-right: 30px;
+  margin-left: 3px;
+}
+
+.trending_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.shopping_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.music_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.movies_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.youtube_live_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.gaming_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.news_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+.sports_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.learning_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.fashion_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.podcasts_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.youtube_premium_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.youtube_studio_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.youtube_music_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.youtube_kids_image{
+height:22px;
+width:22px;
+margin-right: 26px;
+}
+
+.settings_image{
+  height:22px;
+  width:22px;
+  margin-right: 26px;
+}
+
+.report_image{
+  height:22px;
+  width:22px;
+  margin-right: 26px;
+}
+
+.help_image{
+  height:22px;
+  width:22px;
+  margin-right: 26px;
+}
+
+.feedback_image{
+  height:22px;
+  width:22px;
+  margin-right: 26px;
+}
+
+.copyright_text{
+  font-size: 13px;
+  color: #6c6c6c;
+  font-weight: bold;
+  width: 150px;
+}
